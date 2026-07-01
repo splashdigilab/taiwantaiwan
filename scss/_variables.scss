@@ -1,0 +1,35 @@
+// =============================================================
+//  Design tokens & mixins  (no CSS output — safe to @use anywhere)
+// =============================================================
+
+// Layout
+$sidebar-width: 250px;
+$content-pad: 40px;
+
+// Colours
+$color-text:    #666;
+$color-heading: #333;
+$color-line:    #666;
+$color-bg:      #fff;
+$color-muted:   #999;
+
+// Product colour swatches (r / g / b / k) — sampled to match the originals
+$swatches: (
+  r: #b13b34,
+  g: #3f7a3e,
+  b: #28477b,
+  k: #1f242b,
+);
+
+// Typography
+$font-sans: Arial, "微軟正黑體", "Microsoft JhengHei", "新細明體", PMingLiU, "Hiragino Kaku Gothic ProN", "Noto Sans CJK TC", sans-serif;
+
+// Breakpoints
+$bp-mobile: 1024px;
+
+@mixin mobile {
+  @media (max-width: $bp-mobile) { @content; }
+}
+@mixin desktop {
+  @media (min-width: ($bp-mobile + 1)) { @content; }
+}

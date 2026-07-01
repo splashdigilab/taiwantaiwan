@@ -1,0 +1,33 @@
+{
+  "brand": "美麗寶島台灣",
+  "nav": {
+    "about": "品牌故事",
+    "products": "製品",
+    "retailers": "零售商"
+  },
+  "webshop": "線上訂購",
+  "copyright": "©2015 Akibo Lee all rights reserved.",
+  "tel": "Tel: 0988-125193",
+  "product": {
+    "chooseColor": "所選顏色",
+    "back": "返回製品",
+    "spec": "規格",
+    "code": "型號"
+  },
+  "colors": {
+    "r": "紅",
+    "g": "綠",
+    "b": "藍",
+    "k": "黑"
+  },
+  "retailers": {
+    "title": "零售商",
+    "intro": "全台實體販售據點"
+  },
+  "meta": {
+    "home": "美麗寶島台灣",
+    "about": "品牌故事 - 美麗寶島台灣",
+    "products": "製品 - 美麗寶島台灣",
+    "retailers": "零售商 - 美麗寶島台灣"
+  }
+}

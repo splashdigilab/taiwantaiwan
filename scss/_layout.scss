@@ -1,0 +1,194 @@
+@use "variables" as *;
+
+// ============================ Sidebar ============================
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: $sidebar-width;
+  height: 100vh;
+  background: $color-bg;
+  z-index: 120;
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px 16px;
+
+  &__bar { flex: 0 0 auto; }
+
+  &__logo {
+    display: block;
+    img { width: 210px; max-width: 100%; height: auto; display: block; }
+  }
+
+  // menu = nav + footer; on desktop it fills the column, footer pinned to bottom
+  &__menu {
+    flex: 1 1 auto;
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__nav {
+    flex: 1 1 auto;
+    padding-top: 50px;
+    text-align: center;
+
+    a {
+      display: block;
+      font-size: 16px;
+      font-weight: 500;
+      color: $color-text;
+      padding: 10px 0;
+    }
+    a.router-link-active { color: $color-heading; }
+  }
+
+  &__footer { flex: 0 0 auto; font-size: 11px; line-height: 1.5; }
+
+  // thin divider lines in the footer (matches the original .hr)
+  &__hr {
+    height: 1px;
+    background: #999;
+    margin: 2px 0 12px;
+  }
+
+  // toggle button only shows on mobile
+  &__toggle { display: none; }
+}
+
+// Pinkoi web-shop button (original red "ONLINE SHOPPING" image)
+.webshop {
+  display: block;
+  margin: 0 auto 12px;
+  text-align: center;
+  img { display: inline-block; width: 86px; height: auto; }
+  &:hover { opacity: .85; }
+}
+
+// language switch — plain text links (only the other languages)
+.lang {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 12px;
+  a { font-size: 13px; color: $color-text; }
+}
+
+// social — original gray icon sprite (btn_sns.png, 90×60, 30px tiles)
+.social {
+  display: flex;
+  justify-content: center;
+  gap: 13px;
+  margin-bottom: 12px;
+}
+.sns {
+  display: block;
+  width: 30px;
+  height: 30px;
+  background-image: url("/images/btn_sns.png");
+  background-repeat: no-repeat;
+  text-indent: -9999px;
+  overflow: hidden;
+  &:hover { opacity: .8; }
+  &--fb { background-position: 0 -30px; }
+  &--ig { background-position: -30px -30px; }
+  &--email { background-position: -60px -30px; }
+}
+
+.copy { text-align: center; color: $color-muted; }
+
+// ============================ Main ============================
+.main {
+  margin-left: $sidebar-width;
+  min-height: 100vh;
+  position: relative;
+}
+
+// ====================== Responsive (mobile) =====================
+$bar-h: 64px;
+
+@include mobile {
+  .sidebar {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 0;
+  }
+
+  // fixed top bar: brand mark + hamburger
+  .sidebar__bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: $bar-h;
+    padding: 0 18px;
+    background: #fff;
+    border-bottom: 1px solid #ececec;
+  }
+
+  // show only the crest (crop the tagline), larger & legible
+  .sidebar__logo {
+    width: 52px;
+    height: 46px;
+    overflow: hidden;
+    img { width: 52px; height: auto; }
+  }
+
+  .sidebar__toggle {
+    display: block;
+    width: 30px;
+    height: 30px;
+    background: none;
+    border: 0;
+    cursor: pointer;
+    position: relative;
+    span, span::before, span::after {
+      content: "";
+      position: absolute;
+      left: 3px;
+      right: 3px;
+      height: 2px;
+      border-radius: 2px;
+      background: $color-heading;
+      transition: transform .25s, top .25s, background .1s;
+    }
+    span { top: 14px; }
+    span::before { top: -7px; }
+    span::after { top: 7px; }
+  }
+  .sidebar.is-open .sidebar__toggle span {
+    background: transparent;
+    &::before { top: 0; transform: rotate(45deg); }
+    &::after { top: 0; transform: rotate(-45deg); }
+  }
+
+  // dropdown panel (nav + footer flow normally, no overlap)
+  .sidebar__menu {
+    display: none;
+    background: #fff;
+    border-bottom: 1px solid #ececec;
+    box-shadow: 0 14px 22px rgba(0, 0, 0, .07);
+    padding: 8px 26px 30px;
+  }
+  .sidebar.is-open .sidebar__menu { display: block; }
+
+  .sidebar__nav {
+    padding-top: 4px;
+    a {
+      font-size: 17px;
+      font-weight: 500;
+      padding: 15px 0;
+    }
+  }
+
+  .sidebar__footer {
+    font-size: 11px;
+    margin-top: 10px;
+    padding-top: 22px;
+    border-top: 1px solid #ececec;
+  }
+  .webshop img { width: 104px; }
+  .lang a { font-size: 14px; }
+
+  .main { margin-left: 0; padding-top: $bar-h; }
+}

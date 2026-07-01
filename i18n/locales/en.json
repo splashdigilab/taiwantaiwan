@@ -1,0 +1,33 @@
+{
+  "brand": "Beautiful Formosa Taiwan",
+  "nav": {
+    "about": "Story Behind the Brand",
+    "products": "Products",
+    "retailers": "Retailers"
+  },
+  "webshop": "Online Store",
+  "copyright": "©2015 Akibo Lee all rights reserved.",
+  "tel": "Tel: 0988-125193",
+  "product": {
+    "chooseColor": "Choose Color",
+    "back": "Back to Products",
+    "spec": "Specs",
+    "code": "Model"
+  },
+  "colors": {
+    "r": "Red",
+    "g": "Green",
+    "b": "Blue",
+    "k": "Black"
+  },
+  "retailers": {
+    "title": "Retailers",
+    "intro": "Where to find us across Taiwan"
+  },
+  "meta": {
+    "home": "Beautiful Formosa Taiwan",
+    "about": "Story Behind the Brand - Beautiful Formosa Taiwan",
+    "products": "Products - Beautiful Formosa Taiwan",
+    "retailers": "Retailers - Beautiful Formosa Taiwan"
+  }
+}

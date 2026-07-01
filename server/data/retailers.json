@@ -1,0 +1,416 @@
+[
+  {
+    "id": 1,
+    "name": {
+      "zh": "中華民國總統府 紀念品中心",
+      "en": "Presidential Office Building Souvenir Center",
+      "jp": "中華民国総統府 記念品ショップ"
+    },
+    "address": {
+      "zh": "台北市中正區重慶南路一段122號167室",
+      "en": "Room 167, No. 122, Sec. 1, Chongqing S. Rd., ZhongzhengDist., Taipei City",
+      "jp": "台北市中正区重慶南路一段122号167室"
+    },
+    "phone": {
+      "zh": "02-23831287",
+      "en": "02-23831287",
+      "jp": "02-23831287"
+    },
+    "note": {
+      "zh": "*請查詢總統府開放時間",
+      "en": "*Please check with the Presidential Office Building for opening hours.",
+      "jp": "*総統府の開館時間をご確認下さい"
+    }
+  },
+  {
+    "id": 2,
+    "name": {
+      "zh": "國家戲劇院-戲台書店",
+      "en": "National Theater – Theater Bookstore",
+      "jp": "ナショナルシアター－シアターカフェ （ブックストア）"
+    },
+    "address": {
+      "zh": "台北市中山南路21-1號",
+      "en": "No. 21-1, Zhongshan S. Rd., ZhongzhengDist., Taipei City",
+      "jp": "台北市中山南路21-1号"
+    },
+    "phone": {
+      "zh": "02-23971920",
+      "en": "02-23971920",
+      "jp": "02-23971920"
+    },
+    "note": {
+      "zh": "",
+      "en": "",
+      "jp": ""
+    }
+  },
+  {
+    "id": 3,
+    "name": {
+      "zh": "西門紅樓",
+      "en": "The Red House",
+      "jp": "西門紅楼"
+    },
+    "address": {
+      "zh": "台北市萬華區成都路10號",
+      "en": "No.10, Chengdu Rd., Wanhua Dist., Taipei, Taiwan",
+      "jp": "台北市万華区成都路10号"
+    },
+    "phone": {
+      "zh": "02-23123717#11",
+      "en": "02-23123717#11",
+      "jp": "02-23123717#11"
+    },
+    "note": {
+      "zh": "",
+      "en": "",
+      "jp": ""
+    }
+  },
+  {
+    "id": 4,
+    "name": {
+      "zh": "北美館藝術書店",
+      "en": "Taipei Fine Arts Museum - My TFAM Shop",
+      "jp": "北美館芸術書店"
+    },
+    "address": {
+      "zh": "台北市中山區中山北路三段181號",
+      "en": "No.181, Sec. 3, Zhongshan N. Rd., Zhongshan Dist., Taipei, Taiwan",
+      "jp": "台北市中山区中山北路三段181号"
+    },
+    "phone": {
+      "zh": "02-25983868",
+      "en": "02-25983868",
+      "jp": "02-25983868"
+    },
+    "note": {
+      "zh": "",
+      "en": "",
+      "jp": ""
+    }
+  },
+  {
+    "id": 5,
+    "name": {
+      "zh": "台灣物產門市",
+      "en": "Art Yard",
+      "jp": "台湾製品市場"
+    },
+    "address": {
+      "zh": "台北市大同區迪化街一段34-1號",
+      "en": "No.34-1, Sec. 1, Dihua St., Datong Dist., Taipei, Taiwan",
+      "jp": "台北市大同区迪化街一段34-1号"
+    },
+    "phone": {
+      "zh": "02-25521853",
+      "en": "02-25521853",
+      "jp": "02-25521853"
+    },
+    "note": {
+      "zh": "",
+      "en": "",
+      "jp": ""
+    }
+  },
+  {
+    "id": 6,
+    "name": {
+      "zh": "臺師大圖書館出版中心",
+      "en": "National Taiwan Normal University Press",
+      "jp": "台湾師範大学図書館出版中心"
+    },
+    "address": {
+      "zh": "台北市大安區和平東路一段129號",
+      "en": "No. 129, Sec. 1, Heping E. Rd., Daan Dist., Taipei, Taiwan",
+      "jp": "台北市大安区和平東路一段129号"
+    },
+    "phone": {
+      "zh": "02-77345284",
+      "en": "02-77345284",
+      "jp": "02-77345284"
+    },
+    "note": {
+      "zh": "",
+      "en": "",
+      "jp": ""
+    }
+  },
+  {
+    "id": 7,
+    "name": {
+      "zh": "台灣的店",
+      "en": "Taiuan-e-tiam",
+      "jp": "台湾的店"
+    },
+    "address": {
+      "zh": "台北市大安區新生南路三段76巷6號1樓",
+      "en": "1st Fl, No. 6, Lane 76, Section 3, Xinsheng S. Rd., Daan Dist., Taipei, Taiwan",
+      "jp": "台北市大区新生南路三段76巷6号1F"
+    },
+    "phone": {
+      "zh": "02-23625799",
+      "en": "02-23625799",
+      "jp": "02-23625799"
+    },
+    "note": {
+      "zh": "",
+      "en": "",
+      "jp": ""
+    }
+  },
+  {
+    "id": 8,
+    "name": {
+      "zh": "來好 LAI HAO 雜貨鋪",
+      "en": "LAI HAO original shop",
+      "jp": "来好 LAI HAO 雑貨店"
+    },
+    "address": {
+      "zh": "【來好本店】台北市大安區永康街6巷11號1樓",
+      "en": "1st Fl, No. 11, Lane 6, Yongkang St., DaanDist., Taipei City",
+      "jp": "【来好本店】台北市大安区永康街6巷11号1階"
+    },
+    "phone": {
+      "zh": "02-33226136",
+      "en": "02-33226136",
+      "jp": "02-33226136"
+    },
+    "note": {
+      "zh": "",
+      "en": "",
+      "jp": ""
+    }
+  },
+  {
+    "id": 9,
+    "name": {
+      "zh": "林本堂門市",
+      "en": "林本堂門市",
+      "jp": "林本堂商店"
+    },
+    "address": {
+      "zh": "台中市霧峰區本堂里民生路26號",
+      "en": "No. 26, Minsheng Rd., Wufeng Dist., Taichung City 413, Taiwan",
+      "jp": "台中市霧峰区本堂里民生路26号"
+    },
+    "phone": {
+      "zh": "04-23399655",
+      "en": "04-23399655",
+      "jp": "04-23399655"
+    },
+    "note": {
+      "zh": "",
+      "en": "",
+      "jp": ""
+    }
+  },
+  {
+    "id": 10,
+    "name": {
+      "zh": "國立美術館",
+      "en": "National Taiwan Museum of Fine Arts",
+      "jp": "国立美術館"
+    },
+    "address": {
+      "zh": "台中市西區五權西路一段2號",
+      "en": "No. 2, Sec. 1,Wuchuan W. Rd., Taichung",
+      "jp": "台中市西区五権西路一段2号"
+    },
+    "phone": {
+      "zh": "04-23723552#652",
+      "en": "04-23723552#652",
+      "jp": "04-23723552#652"
+    },
+    "note": {
+      "zh": "",
+      "en": "",
+      "jp": ""
+    }
+  },
+  {
+    "id": 11,
+    "name": {
+      "zh": "亞洲現代美術館",
+      "en": "Asia Museum of Modern Art",
+      "jp": "亜洲現代美術館"
+    },
+    "address": {
+      "zh": "台中市霧峰區柳豐路500號(亞洲大學)",
+      "en": "No.500, Liufeng Rd., Wufeng Dist., Taichung, Taiwan(Asia University)",
+      "jp": "台中市霧峰区柳豊路500号（亜洲大学）"
+    },
+    "phone": {
+      "zh": "04-23397595",
+      "en": "04-23397595",
+      "jp": "04-23397595"
+    },
+    "note": {
+      "zh": "",
+      "en": "",
+      "jp": ""
+    }
+  },
+  {
+    "id": 12,
+    "name": {
+      "zh": "臺南愛國婦人館",
+      "en": "Tainan Patriotic Women Hall",
+      "jp": "台南愛国婦人館"
+    },
+    "address": {
+      "zh": "台南市府前路一段197號",
+      "en": "No.197, Sec. 1, Fuqian Rd., Tainan, Taiwan",
+      "jp": "台南市府前路一段197号"
+    },
+    "phone": {
+      "zh": "06-2141590",
+      "en": "06-2141590",
+      "jp": "06-2141590"
+    },
+    "note": {
+      "zh": "",
+      "en": "",
+      "jp": ""
+    }
+  },
+  {
+    "id": 13,
+    "name": {
+      "zh": "臺南安平樹屋",
+      "en": "Anping Tree House",
+      "jp": "台南安平樹屋"
+    },
+    "address": {
+      "zh": "台南市古堡街108號",
+      "en": "No.108, Gubao St., Anping Dist., Tainan, Taiwan",
+      "jp": "台南市古堡街108号"
+    },
+    "phone": {
+      "zh": "06-3913901",
+      "en": "06-3913901",
+      "jp": "06-3913901"
+    },
+    "note": {
+      "zh": "",
+      "en": "",
+      "jp": ""
+    }
+  },
+  {
+    "id": 14,
+    "name": {
+      "zh": "林百貨",
+      "en": "Hayashi Department Store",
+      "jp": "林百貨店"
+    },
+    "address": {
+      "zh": "台南市中西區忠義路二段63號2樓",
+      "en": "No.63, Sec. 2, Zhongyi Rd., West Central Dist., Tainan City",
+      "jp": "台南市中西区忠義路二段63号2階"
+    },
+    "phone": {
+      "zh": "06-2213000#221",
+      "en": "06-2213000#221",
+      "jp": "06-2213000#221"
+    },
+    "note": {
+      "zh": "",
+      "en": "",
+      "jp": ""
+    }
+  },
+  {
+    "id": 15,
+    "name": {
+      "zh": "再見捌捌陸-臺灣眷村文化園區",
+      "en": "Farewell,886-Cultural Park of Taiwan Military Veteran Village",
+      "jp": "さよなら捌捌陸(886)-台湾眷村文化パーク"
+    },
+    "address": {
+      "zh": "高雄市左營區明德新村10號",
+      "en": "No.10, Mingdexincun, Zuoying Dist., Kaohsiung City.",
+      "jp": "高雄市左営区明徳新村10号"
+    },
+    "phone": {
+      "zh": "07-5812886",
+      "en": "07-5812886",
+      "jp": "07-5812886"
+    },
+    "note": {
+      "zh": "開放時間：週二至週五11:00~17:00",
+      "en": "Opening hours: Tuesday to Friday 11:00~17:00",
+      "jp": "開放時間：火～金曜 11:00～17:00"
+    }
+  },
+  {
+    "id": 16,
+    "name": {
+      "zh": "高雄市電影館",
+      "en": "Kaohsiung Film Archive",
+      "jp": "高雄市電影館"
+    },
+    "address": {
+      "zh": "高雄市鹽埕區河西路10號",
+      "en": "NO.10, Hesi Rd., Yancheng District, Kaohsiung City , Taiwan",
+      "jp": "高雄市塩埕区河西路10号"
+    },
+    "phone": {
+      "zh": "07-5511211",
+      "en": "07-5511211",
+      "jp": "07-5511211"
+    },
+    "note": {
+      "zh": "開放時間：週二至週日13:30~21:30",
+      "en": "Opening hours: Tuesday to Sunday 13:30~21:30",
+      "jp": "開放時間：火～日曜 13:30～21:30"
+    }
+  },
+  {
+    "id": 17,
+    "name": {
+      "zh": "新太平洋一號店",
+      "en": "The New Pacific 1",
+      "jp": "新太平洋一号店"
+    },
+    "address": {
+      "zh": "花蓮縣豐濱鄉靜浦村靜浦8-1號(奚卜蘭遊客中心)",
+      "en": "No.8-1, Jingpu, Jingpu Village, Fengbin Township, Hualien County (Xibulan Visitor Center)",
+      "jp": "花蓮県豊浜郷静浦村静浦8-1号（奚卜蘭ビジターセンター)"
+    },
+    "phone": {
+      "zh": "03-8781218",
+      "en": "03-8781218",
+      "jp": "03-8781218"
+    },
+    "note": {
+      "zh": "",
+      "en": "",
+      "jp": ""
+    }
+  },
+  {
+    "id": 18,
+    "name": {
+      "zh": "好的創藝工作室",
+      "en": "Good Collection Studio",
+      "jp": "好的創藝工作室"
+    },
+    "address": {
+      "zh": "台東縣東河鄉都蘭村61-1號",
+      "en": "No.61-1, Dulan Village, Donghe Township, Taitung County",
+      "jp": "台東県東河郷都蘭村61-1号"
+    },
+    "phone": {
+      "zh": "08-9531702",
+      "en": "08-9531702",
+      "jp": "08-9531702"
+    },
+    "note": {
+      "zh": "",
+      "en": "",
+      "jp": ""
+    }
+  }
+]

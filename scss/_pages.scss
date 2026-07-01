@@ -1,0 +1,33 @@
+@use "variables" as *;
+
+// ============================ Retailers ============================
+.retailers {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;      // vertical centre in main
+  justify-content: center;  // horizontal centre in main
+  padding: 40px;
+
+  // light translucent panel
+  &__panel {
+    display: flex;
+    gap: 64px;
+    width: 100%;
+    max-width: 1000px;
+    padding: 44px 64px;
+    background: rgba(120,120,120,.10);
+  }
+  &__col { flex: 1; min-width: 0; }
+}
+.retailer {
+  margin-bottom: 22px;
+  &:last-child { margin-bottom: 0; }
+  &__name { font-weight: 700; color: $color-text; margin-bottom: 6px; font-size: 14px; }
+  &__addr { font-size: 13px; color: $color-text; line-height: 1.65; }
+  &__note { font-size: 13px; color: $color-text; line-height: 1.65; margin-top: 2px; }
+}
+
+@include mobile {
+  .retailers { min-height: 0; display: block; padding: 24px 16px 56px; }
+  .retailers__panel { flex-direction: column; gap: 0; width: auto; padding: 24px 22px; }
+}

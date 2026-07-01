@@ -1,0 +1,43 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//Users/kevin/public_html/**)",
+      "Bash(cd /Users/kevin/public_html; echo \"=== Directory sizes ===\"; du -sh css en jp js lib m images source 2>/dev/null; echo \"\"; echo \"=== en/ contents ===\"; ls en/ | head -60; echo \"\"; echo \"=== css/ ===\"; ls -R css/ | head -40; echo \"\"; echo \"=== js/ ===\"; ls -R js/ | head -40; echo \"\"; echo \"=== lib/ ===\"; ls -R lib/ | head -40; echo \"\"; echo \"=== source/ ===\"; ls source/ | head -40)",
+      "Bash(file -I jp/pro1_r.html jp/about.html jp/index.html en/pro1_r.html index.html)",
+      "Bash(iconv -f BIG5 -t UTF-8)",
+      "Bash(iconv -f SHIFT-JIS -t UTF-8)",
+      "Bash(iconv -f EUC-JP -t UTF-8)",
+      "Bash(node extract.mjs)",
+      "Bash(file -I jp/index.html)",
+      "Bash(node -e 'const fs=require\\(\"fs\"\\);const buf=fs.readFileSync\\(\"jp/index.html\"\\);let enc=\"shift_jis\";try{new TextDecoder\\(\"utf-8\",{fatal:true}\\).decode\\(buf\\);enc=\"utf-8\"}catch{};const t=new TextDecoder\\(enc\\).decode\\(buf\\);const m=[...t.matchAll\\(/<span class=\"names2\">\\([^<]*\\)<\\\\/span>\\\\s*<br\\\\s*\\\\/?>\\([^<]*\\)</g\\)];console.log\\(\"enc:\",enc\\);m.slice\\(0,8\\).forEach\\(x=>console.log\\(JSON.stringify\\([x[1].trim\\(\\),x[2].replace\\(/&nbsp;/g,\" \"\\).trim\\(\\)]\\)\\)\\)')",
+      "Bash(awk '!seen[$0]++')",
+      "Bash(node -e 'const fs=require\\(\"fs\"\\);const buf=fs.readFileSync\\(\"jp/index.html\"\\);const t=new TextDecoder\\(\"shift_jis\"\\).decode\\(buf\\);const m=[...t.matchAll\\(/<p class=\"slide_names\">\\([\\\\s\\\\S]*?\\)<p>/g\\)];const seen=new Set\\(\\);for\\(const x of m\\){const s=x[1].replace\\(/<span[^>]*>/g,\"|\"\\).replace\\(/<\\\\/span>/g,\"|\"\\).replace\\(/<br\\\\s*\\\\/?>/g,\"|\"\\).replace\\(/&nbsp;/g,\" \"\\).replace\\(/\\\\s+/g,\" \"\\).trim\\(\\);if\\(!seen.has\\(s\\)\\){seen.add\\(s\\);console.log\\(s\\)}}')",
+      "Bash(node gen.mjs)",
+      "Bash(mkdir -p server/data)",
+      "Bash(node /private/tmp/claude-501/-Users-kevin-Documents-Github-taiwantaiwan/1cda3aef-1202-4086-b169-c7b639b3b2b6/scratchpad/gen.mjs server/data)",
+      "Bash(mkdir -p public/images)",
+      "Bash(rsync -a --exclude='.DS_Store' --exclude='fancybox' --exclude='flexslider' --exclude='mainMenu.html' /Users/kevin/public_html/images/ public/images/)",
+      "Bash(npm install *)",
+      "Bash(node -e \"const p=require\\('./node_modules/@nuxtjs/i18n/package.json'\\); console.log\\('@nuxtjs/i18n', p.version\\); const s=require\\('./node_modules/sass/package.json'\\); console.log\\('sass', s.version\\); const n=require\\('./node_modules/nuxt/package.json'\\); console.log\\('nuxt', n.version\\)\")",
+      "Bash(node -e ' *)",
+      "Read(//Applications/Google Chrome.app/Contents/MacOS/**)",
+      "Read(//Applications/Chromium.app/Contents/MacOS/**)",
+      "Bash(npm run *)",
+      "Bash(xargs kill)",
+      "Bash(sips -g pixelWidth -g pixelHeight public/images/btn_sns.png public/images/btn_webshop.jpg)",
+      "Bash(node -e \"const p=require\\('./server/data/products.json'\\); ['pro3','pro4','pro10'].forEach\\(id=>{const x=p.find\\(q=>q.id===id\\); console.log\\(id,'| list:',x.listName.zh,'| detail:',x.name.zh\\)}\\)\")",
+      "Bash(rm -f /Users/kevin/public_html/_spritedebug.html)",
+      "Bash(node /private/tmp/claude-501/-Users-kevin-Documents-Github-taiwantaiwan/1cda3aef-1202-4086-b169-c7b639b3b2b6/scratchpad/normalize_retailers.mjs)",
+      "Bash(curl -s http://localhost:3003/api/retailers)",
+      "Bash(node -e \"let d='';process.stdin.on\\('data',c=>d+=c\\).on\\('end',\\(\\)=>{const j=JSON.parse\\(d\\);const r=j[0];console.log\\('keys:',Object.keys\\(r\\).join\\(','\\)\\);console.log\\('r1:',JSON.stringify\\({a:r.address.zh,p:r.phone.zh,n:r.note.zh}\\)\\)}\\)\")",
+      "Bash(node -e \"console.log\\('node', process.version, '| WebSocket:', typeof WebSocket, '| fetch:', typeof fetch\\)\")",
+      "Bash('/Applications/Google Chrome.app/Contents/MacOS/Google Chrome' --headless=new --disable-gpu --remote-debugging-port=9222 --hide-scrollbars --window-size=390,844 http://localhost:3003/products)",
+      "Bash(echo \"chrome launched pid $!\")",
+      "Bash(node cdp.mjs)",
+      "Bash(pkill -f \"remote-debugging-port=9222\")"
+    ],
+    "additionalDirectories": [
+      "/Users/kevin/public_html"
+    ]
+  }
+}

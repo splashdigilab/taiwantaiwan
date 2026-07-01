@@ -1,0 +1,619 @@
+[
+  {
+    "id": "pro1",
+    "order": 1,
+    "code": "0309001",
+    "price": 1680,
+    "dimensions": {
+      "zh": "34X26X9.5cm",
+      "en": "34X26X9.5cm",
+      "jp": "34X26X9.5cm"
+    },
+    "name": {
+      "zh": "美麗寶島台灣LOGO書包",
+      "en": "Beautiful Formosa Taiwan LOGO Bag",
+      "jp": "美麗宝島台湾ロゴカバン"
+    },
+    "description": {
+      "zh": [
+        "棉質帆布傳統書包",
+        "精密電繡台灣Logo",
+        "日日春滿花內襯",
+        "前片有作分隔可放置小物",
+        "內附拉鍊夾層"
+      ],
+      "en": [
+        "Traditional cotton canvas book bag",
+        "Embroidered Taiwan logo",
+        "Lining with catharanthus roseus pattern",
+        "Compartment in the front for smaller items",
+        "Inner compartment with zipper"
+      ],
+      "jp": [
+        "コットンキャンバス素材",
+        "精密に刺繍された台湾ロゴ",
+        "ニチニチソウ柄の裏地",
+        "前胴に小分けポケット",
+        "内側にファスナー付きポケット"
+      ]
+    },
+    "colors": [
+      {
+        "key": "r",
+        "code": "0309001R",
+        "images": 7
+      },
+      {
+        "key": "g",
+        "code": "0309001G",
+        "images": 7
+      },
+      {
+        "key": "b",
+        "code": "0309001B",
+        "images": 7
+      },
+      {
+        "key": "k",
+        "code": "0309001K",
+        "images": 7
+      }
+    ],
+    "listName": {
+      "zh": "美麗寶島台灣LOGO書包",
+      "en": "Beautiful Formosa Taiwan\n\nLOGO Bag",
+      "jp": "美麗宝島台湾ロゴカバン"
+    }
+  },
+  {
+    "id": "pro2",
+    "order": 2,
+    "code": "0309002",
+    "price": 1380,
+    "dimensions": {
+      "zh": "47X40cm",
+      "en": "47X40cm",
+      "jp": "47X40cm"
+    },
+    "name": {
+      "zh": "美麗寶島台灣滿花提袋",
+      "en": "Beautiful Formosa Taiwan Floral Tote",
+      "jp": "美麗宝島台湾花柄手提げ"
+    },
+    "description": {
+      "zh": [
+        "棉質帆布縫製",
+        "日日春台灣圖樣網版印刷",
+        "內側附有拉鍊袋",
+        "另一側附分隔袋",
+        "袋口有磁鐵扣"
+      ],
+      "en": [
+        "Traditional cotton canvas book bag",
+        "Screen-printed catharanthus roseus Taiwan pattern",
+        "Inner compartment with zipper",
+        "Compartment on one side",
+        "Opening with magnetic clasp"
+      ],
+      "jp": [
+        "コットンキャンバス素材",
+        "ニチニチソウ柄と台湾ロゴのシルクスクリーンプリント",
+        "内側にファスナー付きポケット",
+        "反対側の表に小分けポケット",
+        "カバン口にマグネットホック"
+      ]
+    },
+    "colors": [
+      {
+        "key": "r",
+        "code": "0309002R",
+        "images": 5
+      },
+      {
+        "key": "g",
+        "code": "0309002G",
+        "images": 5
+      },
+      {
+        "key": "b",
+        "code": "0309002B",
+        "images": 5
+      },
+      {
+        "key": "k",
+        "code": "0309002K",
+        "images": 5
+      }
+    ],
+    "listName": {
+      "zh": "美麗寶島台灣滿花提袋",
+      "en": "Beautiful Formosa Taiwan\n\nFloral Tote",
+      "jp": "美麗宝島台湾花柄手提げ"
+    }
+  },
+  {
+    "id": "pro3",
+    "order": 3,
+    "code": "0309003",
+    "price": 1080,
+    "dimensions": {
+      "zh": "29.5X36.5cm",
+      "en": "29.5X36.5cm",
+      "jp": "29.5X36.5cm"
+    },
+    "name": {
+      "zh": "美麗寶島台灣滿花小提袋",
+      "en": "Beautiful Formosa Taiwan Floral Small Tote",
+      "jp": "美麗宝島台湾花柄手提げ（小）"
+    },
+    "description": {
+      "zh": [
+        "棉質帆布縫製",
+        "日日春台灣圖樣網版印刷",
+        "內側附有小物袋"
+      ],
+      "en": [
+        "Traditional cotton canvas book bag",
+        "Screen-printed catharanthus roseus Taiwan pattern",
+        "Small compartment on the inside"
+      ],
+      "jp": [
+        "コットンキャンバス素材",
+        "ニチニチソウ柄と台湾ロゴのシルクスクリーンプリント",
+        "内側に小物入れポケット"
+      ]
+    },
+    "colors": [
+      {
+        "key": "r",
+        "code": "0309003R",
+        "images": 5
+      },
+      {
+        "key": "g",
+        "code": "0309003G",
+        "images": 5
+      },
+      {
+        "key": "b",
+        "code": "0309003B",
+        "images": 5
+      },
+      {
+        "key": "k",
+        "code": "0309003K",
+        "images": 5
+      }
+    ],
+    "listName": {
+      "zh": "美麗寶島台灣小提袋",
+      "en": "Beautiful Formosa Taiwan\n\nFloral Small Tote",
+      "jp": "美麗宝島台湾花柄手提げ（小）"
+    }
+  },
+  {
+    "id": "pro4",
+    "order": 4,
+    "code": "0111001",
+    "price": 980,
+    "dimensions": {
+      "zh": "65X65cm",
+      "en": "65X65cm",
+      "jp": "65X65cm"
+    },
+    "name": {
+      "zh": "美麗寶島台灣滿花頭巾",
+      "en": "Beautiful Formosa Taiwan Floral Bandana",
+      "jp": "美麗宝島台湾花柄バンダナ"
+    },
+    "description": {
+      "zh": [
+        "100％純棉布",
+        "日日春台灣圖樣網版印刷",
+        "四款色系",
+        "可成為各種造型搭配",
+        "也可以作為旗幟或壁飾"
+      ],
+      "en": [
+        "100% cotton",
+        "Screen-printed catharanthus roseus Taiwan pattern",
+        "Available in red, green, blue, or black",
+        "Can be worn in a variety of different ways",
+        "Or used as a banner or wall décor"
+      ],
+      "jp": [
+        "100％コットン",
+        "ニチニチソウ柄と台湾ロゴのシルクスクリーンプリント",
+        "全４色",
+        "ファッションアイテムにも",
+        "旗印や壁掛けにも"
+      ]
+    },
+    "colors": [
+      {
+        "key": "r",
+        "code": "0111001R",
+        "images": 5
+      },
+      {
+        "key": "g",
+        "code": "0111001G",
+        "images": 5
+      },
+      {
+        "key": "b",
+        "code": "0111001B",
+        "images": 5
+      },
+      {
+        "key": "k",
+        "code": "0111001K",
+        "images": 5
+      }
+    ],
+    "listName": {
+      "zh": "美麗寶島台灣頭巾",
+      "en": "Beautiful Formosa Taiwan\n\nFloral Bandana",
+      "jp": "美麗宝島台湾花柄バンダナ"
+    }
+  },
+  {
+    "id": "pro5",
+    "order": 5,
+    "code": "0409001",
+    "price": 500,
+    "dimensions": {
+      "zh": "90X135cm",
+      "en": "90X135cm",
+      "jp": "90X135cm"
+    },
+    "name": {
+      "zh": "美麗寶島台灣野餐墊",
+      "en": "Beautiful Formosa Taiwan Picnic Mat",
+      "jp": "美麗宝島台湾レジャーシート"
+    },
+    "description": {
+      "zh": [
+        "OPP+PE編織布野餐墊",
+        "彩印日日春台灣圖樣",
+        "紅、綠、藍、黑四款",
+        "也可以作為大型旗幟或壁飾"
+      ],
+      "en": [
+        "OPP+PE plastic woven picnic mat",
+        "Color printed with catharanthus roseus Taiwan pattern",
+        "Available in red, green, blue, or black",
+        "Can also be used as a large banner or wall décor"
+      ],
+      "jp": [
+        "OPP+PE素材",
+        "ニチニチソウ柄と台湾ロゴのカラープリント",
+        "赤、緑、青、黒の４色",
+        "大型の旗印や壁掛けにも"
+      ]
+    },
+    "colors": [
+      {
+        "key": "r",
+        "code": "0409001R",
+        "images": 6
+      },
+      {
+        "key": "g",
+        "code": "0409001G",
+        "images": 6
+      },
+      {
+        "key": "b",
+        "code": "0409001B",
+        "images": 6
+      },
+      {
+        "key": "k",
+        "code": "0409001K",
+        "images": 6
+      }
+    ],
+    "listName": {
+      "zh": "美麗寶島台灣野餐墊",
+      "en": "Beautiful Formosa Taiwan\n\nPicnic Mat",
+      "jp": "美麗宝島台湾レジャーシート"
+    }
+  },
+  {
+    "id": "pro6",
+    "order": 6,
+    "code": "0409002",
+    "price": 220,
+    "dimensions": {
+      "zh": "22X31cm",
+      "en": "22X31cm",
+      "jp": "22X31cm"
+    },
+    "name": {
+      "zh": "美麗寶島台灣資料夾",
+      "en": "Beautiful Formosa Taiwan File Folder",
+      "jp": "美麗宝島台湾クリアファイル"
+    },
+    "description": {
+      "zh": [
+        "PP材質L型文件夾",
+        "彩印日日春台灣圖樣",
+        "A4尺寸",
+        "紅、綠、藍、黑四款"
+      ],
+      "en": [
+        "L-shape file folder made with polypropylene",
+        "Color printed with catharanthus roseus Taiwan pattern",
+        "A4 size",
+        "Available in red, green, blue, or black"
+      ],
+      "jp": [
+        "PP素材L型ファイル",
+        "ニチニチソウ柄と台湾ロゴのカラープリント",
+        "A4サイズ",
+        "赤、緑、青、黒の４色"
+      ]
+    },
+    "colors": [
+      {
+        "key": "r",
+        "code": "0409002R",
+        "images": 5
+      },
+      {
+        "key": "g",
+        "code": "0409002G",
+        "images": 5
+      },
+      {
+        "key": "b",
+        "code": "0409002B",
+        "images": 5
+      },
+      {
+        "key": "k",
+        "code": "0409002K",
+        "images": 5
+      }
+    ],
+    "listName": {
+      "zh": "美麗寶島台灣資料夾",
+      "en": "Beautiful Formosa Taiwan\n\nFile Folder",
+      "jp": "美麗宝島台湾クリアファイル"
+    }
+  },
+  {
+    "id": "pro7",
+    "order": 7,
+    "code": "0209001",
+    "price": 250,
+    "dimensions": {
+      "zh": "14X18X1.3cm",
+      "en": "14X18X1.3cm",
+      "jp": "14X18X1.3cm"
+    },
+    "name": {
+      "zh": "美麗寶島台灣筆記本",
+      "en": "Beautiful Formosa Taiwan Notebook",
+      "jp": "美麗宝島台湾ノート"
+    },
+    "description": {
+      "zh": [
+        "封面：150磅台灣雪銅紙",
+        "平版印刷，霧面PP，穿線精裝",
+        "內頁：空白80磅台灣環保再生紙，64頁"
+      ],
+      "en": [
+        "Cover: 150lb made in Taiwan matte-finish paper",
+        "Offset printing, matte PP coating, sewn binding",
+        "Inside pages: 80lb blank made in Taiwan recycled paper, 64 pages"
+      ],
+      "jp": [
+        "カバー：150g/m2台湾製マットアートペーパー",
+        "平版印刷、マッド仕上げPP、糸綴じハードカバー",
+        "中紙（空白）： 80g/m2台湾製再生紙、64枚"
+      ]
+    },
+    "colors": [
+      {
+        "key": "r",
+        "code": "0209001R",
+        "images": 5
+      },
+      {
+        "key": "g",
+        "code": "0209001G",
+        "images": 5
+      },
+      {
+        "key": "b",
+        "code": "0209001B",
+        "images": 5
+      },
+      {
+        "key": "k",
+        "code": "0209001K",
+        "images": 5
+      }
+    ],
+    "listName": {
+      "zh": "美麗寶島台灣筆記本",
+      "en": "Beautiful Formosa Taiwan\n\nNotebook",
+      "jp": "美麗宝島台湾ノート"
+    }
+  },
+  {
+    "id": "pro8",
+    "order": 8,
+    "code": "0209002",
+    "price": 80,
+    "dimensions": {
+      "zh": "10.5X14.5cm",
+      "en": "10.5X14.5cm",
+      "jp": "10.5X14.5cm"
+    },
+    "name": {
+      "zh": "美麗寶島台灣明信片",
+      "en": "Beautiful Formosa Taiwan Postcard",
+      "jp": "美麗宝島台湾ポストカード"
+    },
+    "description": {
+      "zh": [
+        "300磅台灣銅西卡紙",
+        "平版印刷",
+        "正面上霧面PP膜",
+        "紅、綠、藍、黑四款"
+      ],
+      "en": [
+        "300lb made in Taiwan coated ivory board",
+        "Offset printing",
+        "Matte PP coating in the front",
+        "Available in red, green, blue, or black"
+      ],
+      "jp": [
+        "300 g/m2台湾製Coated post card",
+        "平版印刷",
+        "正面マッドPPフィルム加工",
+        "赤、緑、青、黒の４色"
+      ]
+    },
+    "colors": [
+      {
+        "key": "r",
+        "code": "0209002R",
+        "images": 5
+      },
+      {
+        "key": "g",
+        "code": "0209002G",
+        "images": 5
+      },
+      {
+        "key": "b",
+        "code": "0209002B",
+        "images": 5
+      },
+      {
+        "key": "k",
+        "code": "0209002K",
+        "images": 5
+      }
+    ],
+    "listName": {
+      "zh": "美麗寶島台灣明信片",
+      "en": "Beautiful Formosa Taiwan\n\nPostcard",
+      "jp": "美麗宝島台湾ポストカード"
+    }
+  },
+  {
+    "id": "pro9",
+    "order": 9,
+    "code": "0315001",
+    "price": 2000,
+    "dimensions": {
+      "zh": "34X26X9.5cm",
+      "en": "34X26X9.5cm",
+      "jp": "34X26X9.5cm"
+    },
+    "name": {
+      "zh": "美麗寶島台灣滿黑書包",
+      "en": "Beautiful Formosa Full Noir Taiwan Logo Bag",
+      "jp": "フォルモサ台湾 真っ黒カバン"
+    },
+    "description": {
+      "zh": [
+        "棉質帆布傳統書包",
+        "精密電繡台灣Logo",
+        "前片有作分隔可放置小物",
+        "內附拉鍊夾層"
+      ],
+      "en": [
+        "Traditional cotton canvas book bag",
+        "Embroidered Taiwan logo",
+        "Lining with catharanthus roseus pattern",
+        "Compartment in the front for smaller items",
+        "Inner compartment with zipper"
+      ],
+      "jp": [
+        "コットンキャンバス素材",
+        "精密に刺繍された台湾ロゴ",
+        "ニチニチソウ柄の裏地",
+        "内側にファスナー付きポケット"
+      ]
+    },
+    "colors": [
+      {
+        "key": "k",
+        "code": "0315001K",
+        "images": 7
+      }
+    ],
+    "listName": {
+      "zh": "美麗寶島台灣滿黑書包",
+      "en": "Beautiful Formosa Full Noir Taiwan\n\nLogo Bag",
+      "jp": "フォルモサ台湾 真っ黒カバン"
+    }
+  },
+  {
+    "id": "pro10",
+    "order": 10,
+    "code": "0518001",
+    "price": 480,
+    "dimensions": {
+      "zh": "直徑15.3x高1.5cm",
+      "en": "Diameter 15.3x Height 1.5cm",
+      "jp": "直径15.3x高1.5 cm"
+    },
+    "name": {
+      "zh": "美麗寶島台灣花盤",
+      "en": "Beautiful Formosa Patterned Plate",
+      "jp": "フォルモサ台湾 花模様皿"
+    },
+    "description": {
+      "zh": [
+        "全瓷",
+        "日日春台灣圖樣印花",
+        "以1200度高溫燒製而成,貼上轉印花紙二次燒成",
+        "紅、綠、藍、黑四款"
+      ],
+      "en": [
+        "All-Ceramic",
+        "Made through heating under 1200°C, the catharanthus roses Taiwan pattern is attached through a subsequent thermal transfer."
+      ],
+      "jp": [
+        "オールセラミック",
+        "ニチニチソウ柄と台湾ロゴ模様",
+        "1200°Cの高温で焼き上がり",
+        "赤、緑、青、黒の４色"
+      ]
+    },
+    "colors": [
+      {
+        "key": "r",
+        "code": "0518001R",
+        "images": 5
+      },
+      {
+        "key": "g",
+        "code": "0518001G",
+        "images": 5
+      },
+      {
+        "key": "b",
+        "code": "0518001B",
+        "images": 5
+      },
+      {
+        "key": "k",
+        "code": "0518001K",
+        "images": 5
+      }
+    ],
+    "listName": {
+      "zh": "美麗寶島台灣小花盤",
+      "en": "Beautiful Formosa\n\nSmall Patterned Plate",
+      "jp": "フォルモサ台湾 花模様皿"
+    }
+  }
+]

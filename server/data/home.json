@@ -1,0 +1,135 @@
+{
+  "people": [
+    {
+      "id": "zin-yang",
+      "title": {
+        "zh": "演員",
+        "en": "Actress",
+        "jp": "女優"
+      },
+      "name": {
+        "zh": "陽靚  Zin Yang",
+        "en": "Zin Yang",
+        "jp": "陽靚（ヤン・ジン）"
+      }
+    },
+    {
+      "id": "wu-darkuen",
+      "title": {
+        "zh": "台北國際藝術村總監",
+        "en": "Director of Taipei Artist Village",
+        "jp": "台北国際芸術村ディレクター"
+      },
+      "name": {
+        "zh": "吳達坤  Wu Dar Kuen",
+        "en": "Wu Dar Kuen",
+        "jp": "呉達坤（ウー・ダークン）"
+      }
+    },
+    {
+      "id": "carla",
+      "title": {
+        "zh": "皇后皮箱樂團主唱",
+        "en": "Vocal for the band Queensuitcase",
+        "jp": "バンド「皇后皮箱」ボーカル"
+      },
+      "name": {
+        "zh": "卡菈  Carla",
+        "en": "Carla",
+        "jp": "卡菈（カーラ）"
+      }
+    },
+    {
+      "id": "kaocheng-lin",
+      "title": {
+        "zh": "中華民國潛水協會理事長",
+        "en": "Director General of Chinese Taipei Diving Association",
+        "jp": "中華民国ダイビング協会理事長"
+      },
+      "name": {
+        "zh": "林高正  Kaocheng Lin",
+        "en": "Kaocheng Lin",
+        "jp": "林高正（リン・ガオジェン）"
+      }
+    },
+    {
+      "id": "fred-jame",
+      "title": {
+        "zh": "出版人、語言行銷顧問",
+        "en": "Publisher and Linguistic Marketing Consultant",
+        "jp": "出版人、言語マーケティング顧問"
+      },
+      "name": {
+        "zh": "傅瑞德  Fred Jame",
+        "en": "Fred Jame",
+        "jp": "傅瑞徳（フー・ルイダー）"
+      }
+    }
+  ],
+  "slides": [
+    {
+      "image": "bg_slide1.jpg",
+      "personId": "zin-yang"
+    },
+    {
+      "image": "bg_slide2.jpg",
+      "personId": "wu-darkuen"
+    },
+    {
+      "image": "bg_slide3.jpg",
+      "personId": "carla"
+    },
+    {
+      "image": "bg_slide4.jpg",
+      "personId": "kaocheng-lin"
+    },
+    {
+      "image": "bg_slide6.jpg",
+      "personId": "fred-jame"
+    },
+    {
+      "image": "bg_slide7.jpg",
+      "personId": "zin-yang"
+    },
+    {
+      "image": "bg_slide8.jpg",
+      "personId": "wu-darkuen"
+    },
+    {
+      "image": "bg_slide9.jpg",
+      "personId": "carla"
+    },
+    {
+      "image": "bg_slide10.jpg",
+      "personId": "kaocheng-lin"
+    },
+    {
+      "image": "bg_slide12.jpg",
+      "personId": "fred-jame"
+    },
+    {
+      "image": "bg_slide13.jpg",
+      "personId": "zin-yang"
+    },
+    {
+      "image": "bg_slide14.jpg",
+      "personId": "wu-darkuen"
+    },
+    {
+      "image": "bg_slide15.jpg",
+      "personId": "carla"
+    },
+    {
+      "image": "bg_slide16.jpg",
+      "personId": "kaocheng-lin"
+    },
+    {
+      "image": "bg_slide18.jpg",
+      "personId": "fred-jame"
+    },
+    {
+      "image": "bg_slide19.jpg",
+      "personId": "zin-yang"
+    }
+  ]
+}

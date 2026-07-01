@@ -1,0 +1,33 @@
+{
+  "brand": "美麗宝島台湾",
+  "nav": {
+    "about": "ブランドストーリー",
+    "products": "オリジナルグッズ",
+    "retailers": "販売店"
+  },
+  "webshop": "オンラインストア",
+  "copyright": "©2015 Akibo Lee all rights reserved.",
+  "tel": "Tel: 0988-125193",
+  "product": {
+    "chooseColor": "色柄",
+    "back": "一覧へ戻る",
+    "spec": "仕様",
+    "code": "型番"
+  },
+  "colors": {
+    "r": "赤",
+    "g": "緑",
+    "b": "青",
+    "k": "黒"
+  },
+  "retailers": {
+    "title": "販売店",
+    "intro": "台湾各地の取扱店"
+  },
+  "meta": {
+    "home": "美麗宝島台湾",
+    "about": "ブランドストーリー - 美麗宝島台湾",
+    "products": "オリジナルグッズ - 美麗宝島台湾",
+    "retailers": "販売店 - 美麗宝島台湾"
+  }
+}

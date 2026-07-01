@@ -1,0 +1,53 @@
+@use "variables" as *;
+
+// Full-bleed background slideshow filling the area beside the sidebar
+.slideshow {
+  position: fixed;
+  inset: 0 0 0 $sidebar-width;
+  overflow: hidden;
+  background: #000;
+
+  &__slide {
+    position: absolute;
+    inset: 0;
+    background-size: cover;
+    background-position: center center;
+    opacity: 0;
+    transition: opacity 1.4s ease-in-out;
+    will-change: opacity;
+    &.is-active { opacity: 1; }
+  }
+}
+
+// Featured-person caption (home) — plain text, no box (matches original)
+.caption {
+  position: absolute;
+  top: 20px;
+  left: 24px;
+  z-index: 5;
+  color: #666;
+  font-size: 14px;
+  line-height: 1.7;
+  max-width: 70%;
+  &__title { display: block; font-weight: 700; }
+}
+
+// Brand-story card (about) floating over the slideshow
+.story {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 5;
+  width: min(760px, 86%);
+  background: rgba(255,255,255,.9);
+  padding: 40px 44px;
+  p { white-space: pre-line; font-size: 15px; line-height: 2; }
+  &__sign { margin-top: 18px; width: 170px; margin-left: auto; }
+}
+
+@include mobile {
+  .slideshow { inset: 64px 0 0 0; }
+  .caption { font-size: 12px; max-width: calc(100% - 40px); }
+  .story { padding: 26px 22px; p { line-height: 1.9; } }
+}
