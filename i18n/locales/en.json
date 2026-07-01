@@ -28,6 +28,12 @@
     "home": "Beautiful Formosa Taiwan",
     "about": "Story Behind the Brand - Beautiful Formosa Taiwan",
     "products": "Products - Beautiful Formosa Taiwan",
-    "retailers": "Retailers - Beautiful Formosa Taiwan"
+    "retailers": "Retailers - Beautiful Formosa Taiwan",
+    "desc": {
+      "home": "A Taiwanese design brand founded by artist Akibo Lee, with products designed around the rosy periwinkle pattern — all designed and made in Taiwan.",
+      "about": "Taiwan is a warm island in the Pacific. The resilient rosy periwinkle mirrors its warm-hearted people. Artist Akibo Lee created Beautiful Formosa Taiwan in its honor.",
+      "products": "The full Beautiful Formosa Taiwan collection featuring the rosy periwinkle pattern, designed and made in Taiwan, available in red, green, blue and black.",
+      "retailers": "Find Beautiful Formosa Taiwan at retail locations across Taiwan and shop our rosy periwinkle collection, designed and made in Taiwan."
+    }
   }
 }

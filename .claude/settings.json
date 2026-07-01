@@ -34,7 +34,13 @@
       "Bash('/Applications/Google Chrome.app/Contents/MacOS/Google Chrome' --headless=new --disable-gpu --remote-debugging-port=9222 --hide-scrollbars --window-size=390,844 http://localhost:3003/products)",
       "Bash(echo \"chrome launched pid $!\")",
       "Bash(node cdp.mjs)",
-      "Bash(pkill -f \"remote-debugging-port=9222\")"
+      "Bash(pkill -f \"remote-debugging-port=9222\")",
+      "Bash(python3 -c \"import json;print\\(json.dumps\\(json.load\\(open\\('i18n/locales/en.json'\\)\\).get\\('meta'\\),ensure_ascii=False\\)\\)\")",
+      "Bash(python3 -c \"import json;print\\(json.dumps\\(json.load\\(open\\('i18n/locales/jp.json'\\)\\).get\\('meta'\\),ensure_ascii=False\\)\\)\")",
+      "Bash(python3 -c \"import json;d=json.load\\(open\\('server/data/products.json'\\)\\);print\\(type\\(d\\)\\); print\\([p['id'] for p in \\(d if isinstance\\(d,list\\) else d.get\\('products',[]\\)\\)]\\)\")",
+      "Bash(python3 -c \"import json;print\\(json.load\\(open\\('node_modules/@nuxtjs/i18n/package.json'\\)\\)['version']\\)\")",
+      "Bash(python3 -c \"import json;d=json.load\\(open\\('server/data/products.json'\\)\\);import sys;print\\(json.dumps\\(d[0],ensure_ascii=False\\)[:800]\\)\")",
+      "Bash(npx nuxt *)"
     ],
     "additionalDirectories": [
       "/Users/kevin/public_html"

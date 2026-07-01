@@ -5,6 +5,13 @@ export default defineNuxtConfig({
 
   modules: ['@nuxtjs/i18n'],
 
+  // Canonical site origin — used for canonical URLs, hreflang, OG tags & sitemap.
+  runtimeConfig: {
+    public: {
+      siteUrl: 'https://www.taiwantaiwan.net',
+    },
+  },
+
   // Global SCSS (architecture lives in /scss)
   css: ['~~/scss/main.scss'],
 
@@ -21,6 +28,8 @@ export default defineNuxtConfig({
   },
 
   i18n: {
+    // Absolute base needed for hreflang / canonical / og:url output.
+    baseUrl: 'https://www.taiwantaiwan.net',
     defaultLocale: 'zh',
     strategy: 'prefix_except_default',
     detectBrowserLanguage: false,

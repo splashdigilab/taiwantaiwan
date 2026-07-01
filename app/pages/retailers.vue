@@ -13,6 +13,11 @@ const { t } = useI18n()
 const { pick } = useLocalized()
 const { data } = await useFetch<Retailer[]>('/api/retailers')
 useHead({ title: () => t('meta.retailers') })
+useSeoMeta({
+  description: () => t('meta.desc.retailers'),
+  ogTitle: () => t('meta.retailers'),
+  ogDescription: () => t('meta.desc.retailers'),
+})
 
 // split into two grouped columns, like the original (first half / second half)
 const half = computed(() => Math.ceil((data.value?.length ?? 0) / 2))

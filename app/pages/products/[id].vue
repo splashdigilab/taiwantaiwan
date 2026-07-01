@@ -35,9 +35,60 @@ const selectedColor = computed<string>({
 })
 const currentColor = computed(() => product.value?.colors.find((c) => c.key === selectedColor.value))
 
+const { public: { siteUrl } } = useRuntimeConfig()
+
+// Absolute thumbnail (black variant) used for social sharing previews.
+const ogImage = computed(() => {
+  if (!product.value) return `${siteUrl}/images/logo.jpg`
+  const n = product.value.id.replace('pro', '')
+  return `${siteUrl}/images/${product.value.id}/k/k${n}_s1.jpg`
+})
+
+// Description string built from the product's feature list + dimensions.
+const metaDescription = computed(() => {
+  if (!product.value) return t('meta.desc.products')
+  const lines = pick(product.value.description) ?? []
+  return [lines.join('、'), pick(product.value.dimensions)].filter(Boolean).join(' | ')
+})
+
 useHead({
   title: () => (product.value ? `${pick(product.value.name)} - ${t('brand')}` : t('brand')),
 })
+
+useSeoMeta({
+  description: () => metaDescription.value,
+  ogTitle: () => (product.value ? `${pick(product.value.name)} - ${t('brand')}` : t('brand')),
+  ogDescription: () => metaDescription.value,
+  ogType: 'product',
+  ogImage: () => ogImage.value,
+})
+
+// Product structured data (JSON-LD) for rich results.
+useHead(() => ({
+  script: product.value
+    ? [
+        {
+          type: 'application/ld+json',
+          innerHTML: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'Product',
+            name: pick(product.value.name),
+            image: ogImage.value,
+            description: metaDescription.value,
+            sku: product.value.code,
+            brand: { '@type': 'Brand', name: t('brand') },
+            offers: {
+              '@type': 'Offer',
+              priceCurrency: 'TWD',
+              price: product.value.price,
+              availability: 'https://schema.org/InStock',
+              url: `${siteUrl}${route.path}`,
+            },
+          }),
+        },
+      ]
+    : [],
+}))
 </script>
 
 <template>

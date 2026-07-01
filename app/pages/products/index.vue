@@ -15,6 +15,11 @@ const { pick } = useLocalized()
 const localePath = useLocalePath()
 const { data: products } = await useFetch<Product[]>('/api/products')
 useHead({ title: () => t('meta.products') })
+useSeoMeta({
+  description: () => t('meta.desc.products'),
+  ogTitle: () => t('meta.products'),
+  ogDescription: () => t('meta.desc.products'),
+})
 
 // Grid thumbnails use the black (k) variant, matching the original site.
 function thumb(p: Product, hover = false) {
