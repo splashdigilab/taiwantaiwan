@@ -100,15 +100,6 @@ useHead(() => ({
     />
 
     <div class="product-info">
-      <h2>{{ pick(product.name) }}</h2>
-      <p class="product-info__price">{{ price(product.price) }}</p>
-      <hr class="hr-line" />
-      <p class="product-info__spec">{{ pick(product.dimensions) }}</p>
-      <ul class="product-info__desc">
-        <li v-for="(line, i) in pick(product.description)" :key="i">{{ line }}</li>
-      </ul>
-      <p class="product-info__code">{{ currentColor?.code }}</p>
-      <hr class="hr-line" />
       <p>{{ t('product.chooseColor') }}</p>
       <div class="swatches">
         <button
@@ -122,6 +113,16 @@ useHead(() => ({
           @click="selectedColor = c.key"
         />
       </div>
+      <hr class="hr-line" />
+      <h2>{{ pick(product.name) }}</h2>
+      <p class="product-info__price">{{ price(product.price) }}</p>
+      <hr class="hr-line" />
+      <p class="product-info__spec">{{ pick(product.dimensions) }}</p>
+      <ul class="product-info__desc">
+        <li v-for="(line, i) in pick(product.description)" :key="i">{{ line }}</li>
+      </ul>
+      <p class="product-info__code">{{ currentColor?.code }}</p>
+      <hr class="hr-line" />
       <img class="product-info__sign" src="/images/signature.png" alt="Akibo Lee" />
     </div>
 
